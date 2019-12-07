@@ -1,8 +1,8 @@
-<p align="center"><img src="./img/nlw.png" width="340"></p>
+<p align="center"><img src="../img/nlw.png" width="340"></p>
 
 # Store Nginx Access Logs in Amazon CloudWatch with Logging Operator
 
-<p align="center"><img src="./img/nginx-cloudwatch.png" width="900"></p>
+<p align="center"><img src="../img/nginx-cloudwatch.png" width="900"></p>
 
 ---
 ## Contents
@@ -27,7 +27,7 @@ helm repo add banzaicloud-stable https://kubernetes-charts.banzaicloud.com
 helm repo update
 ```
 #### Logging Operator
-> [How to install Logging-operator with helm](./deploy/README.md#deploy-logging-operator-with-helm)
+> [How to install Logging-operator with helm](../deploy/README.md#deploy-logging-operator-with-helm)
 
 #### Demo App and Logging Definition
 ```bash
@@ -47,7 +47,7 @@ helm install --namespace logging --name logging-demo banzaicloud-stable/logging-
 
 ### Install from Kubernetes manifests
 #### Logging Operator
-> [How to install Logging-operator from manifests](./deploy/README.md#deploy-logging-operator-from-kubernetes-manifests)
+> [How to install Logging-operator from manifests](../deploy/README.md#deploy-logging-operator-from-kubernetes-manifests)
 
 #### Create `logging` Namespace
 ```bash
@@ -169,6 +169,6 @@ EOF
 ```
 
 ## Deployment Validation
-<p align="center"><img src="./img/cw.png" width="660"></p>
+<p align="center"><img src="../img/cw.png" width="660"></p>
 
 
